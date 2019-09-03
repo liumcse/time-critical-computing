@@ -1,0 +1,7 @@
+udma.pbi: \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\CPU\LuminaryMicro\DriverLib\driverlib\udma.c \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_types.h \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_udma.h \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/debug.h \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/interrupt.h \
+  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/udma.h
