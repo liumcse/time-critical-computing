@@ -81,7 +81,7 @@ void  OS_PrioInit (void)
 ************************************************************************************************************************
 */
 
-// TODO: change this
+// TODO: change this. Currently, it's first in first out?
 OS_PRIO  OS_PrioGetHighest (void)
 {
     CPU_DATA  *p_tbl;
