@@ -1238,6 +1238,12 @@
         <file>
             <name>$PROJ_DIR$\os_app_hooks.h</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\redblack.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\redblack.h</name>
+        </file>
     </group>
     <group>
         <name>BSP</name>

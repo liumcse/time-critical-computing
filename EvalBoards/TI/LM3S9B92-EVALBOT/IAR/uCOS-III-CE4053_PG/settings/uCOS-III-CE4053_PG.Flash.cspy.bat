@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "\\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.general.xcl" --backend -f "\\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "\\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.general.xcl" --backend -f "\\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "\\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.general.xcl" "--debug_file=%~1" --backend -f "\\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "\\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.general.xcl" "--debug_file=%~1" --backend -f "\\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\settings\uCOS-III-CE4053_PG.Flash.driver.xcl" 
 
 @echo off 
 :end

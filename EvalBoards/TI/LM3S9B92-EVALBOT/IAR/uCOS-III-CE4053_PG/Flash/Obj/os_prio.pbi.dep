@@ -1,16 +1,15 @@
-os_prio.pbi: \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\uCOS-III\Source\os_prio.c \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\uCOS-III\Source\os.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\os_cfg.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\ARM-Cortex-M3\IAR\cpu.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\cpu_def.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\cpu_cfg.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\cpu_core.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_def.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_mem.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\app_cfg.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\lib_cfg.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_str.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_ascii.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\uCOS-III\Source\os_type.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu.h
+os_prio.pbi: \\Mac\Code\CodeC\CZ4057\uCOS-III\Source\os_prio.c \
+  \\Mac\Code\CodeC\CZ4057\uCOS-III\Source\os.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\os_cfg.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\ARM-Cortex-M3\IAR\cpu.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\cpu_def.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\cpu_cfg.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-CPU\cpu_core.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_def.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_mem.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\app_cfg.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\CFG\lib_cfg.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_str.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uC-LIB\lib_ascii.h \
+  \\Mac\Code\CodeC\CZ4057\uCOS-III\Source\os_type.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\uCOS-III\Ports\ARM-Cortex-M3\Generic\IAR\os_cpu.h

@@ -30,16 +30,15 @@
 ************************************************************************************************************************
 */
 
-#include  <os.h>
+#include <os.h>
 
 #ifdef VSC_INCLUDE_SOURCE_FILE_NAMES
-const  CPU_CHAR  *os_prio__c = "$Id: $";
+const CPU_CHAR *os_prio__c = "$Id: $";
 #endif
 
-
-CPU_DATA   OSPrioTbl[OS_PRIO_TBL_SIZE];                     /* Declare the array local to this file to allow for  ... */
-                                                            /* ... optimization.  In other words, this allows the ... */
-                                                            /* ... table to be located in fast memory                 */
+CPU_DATA OSPrioTbl[OS_PRIO_TBL_SIZE]; /* Declare the array local to this file to allow for  ... */
+                                      /* ... optimization.  In other words, this allows the ... */
+                                      /* ... table to be located in fast memory                 */
 
 /*
 ************************************************************************************************************************
@@ -55,14 +54,14 @@ CPU_DATA   OSPrioTbl[OS_PRIO_TBL_SIZE];                     /* Declare the array
 ************************************************************************************************************************
 */
 
-void  OS_PrioInit (void)
+void OS_PrioInit(void)
 {
-    CPU_DATA  i;
+    CPU_DATA i;
 
-
-                                                            /* Clear the bitmap table ... no task is ready            */
-    for (i = 0u; i < OS_PRIO_TBL_SIZE; i++) {
-         OSPrioTbl[i] = (CPU_DATA)0;
+    /* Clear the bitmap table ... no task is ready            */
+    for (i = 0u; i < OS_PRIO_TBL_SIZE; i++)
+    {
+        OSPrioTbl[i] = (CPU_DATA)0;
     }
 }
 
@@ -81,20 +80,19 @@ void  OS_PrioInit (void)
 ************************************************************************************************************************
 */
 
-// TODO: change this. Currently, it's first in first out?
-OS_PRIO  OS_PrioGetHighest (void)
+OS_PRIO OS_PrioGetHighest(void)
 {
-    CPU_DATA  *p_tbl;
-    OS_PRIO    prio;
+    CPU_DATA *p_tbl;
+    OS_PRIO prio;
 
-
-    prio  = (OS_PRIO)0;
+    prio = (OS_PRIO)0;
     p_tbl = &OSPrioTbl[0];
-    while (*p_tbl == (CPU_DATA)0) {                         /* Search the bitmap table for the highest priority       */
-        prio += DEF_INT_CPU_NBR_BITS;                       /* Compute the step of each CPU_DATA entry                */
+    while (*p_tbl == (CPU_DATA)0)
+    {                                 /* Search the bitmap table for the highest priority       */
+        prio += DEF_INT_CPU_NBR_BITS; /* Compute the step of each CPU_DATA entry                */
         p_tbl++;
     }
-    prio += (OS_PRIO)CPU_CntLeadZeros(*p_tbl);              /* Find the position of the first bit set at the entry    */
+    prio += (OS_PRIO)CPU_CntLeadZeros(*p_tbl); /* Find the position of the first bit set at the entry    */
     return (prio);
 }
 
@@ -112,17 +110,17 @@ OS_PRIO  OS_PrioGetHighest (void)
 ************************************************************************************************************************
 */
 
-void  OS_PrioInsert (OS_PRIO  prio)
+// TODO(liumcse): change this
+void OS_PrioInsert(OS_PRIO prio)
 {
-    CPU_DATA  bit;
-    CPU_DATA  bit_nbr;
-    OS_PRIO   ix;
+    CPU_DATA bit;
+    CPU_DATA bit_nbr;
+    OS_PRIO ix;
 
-
-    ix             = prio / DEF_INT_CPU_NBR_BITS;
-    bit_nbr        = (CPU_DATA)prio & (DEF_INT_CPU_NBR_BITS - 1u);
-    bit            = 1u;
-    bit          <<= (DEF_INT_CPU_NBR_BITS - 1u) - bit_nbr;
+    ix = prio / DEF_INT_CPU_NBR_BITS;
+    bit_nbr = (CPU_DATA)prio & (DEF_INT_CPU_NBR_BITS - 1u);
+    bit = 1u;
+    bit <<= (DEF_INT_CPU_NBR_BITS - 1u) - bit_nbr;
     OSPrioTbl[ix] |= bit;
 }
 
@@ -140,16 +138,15 @@ void  OS_PrioInsert (OS_PRIO  prio)
 ************************************************************************************************************************
 */
 
-void  OS_PrioRemove (OS_PRIO  prio)
+void OS_PrioRemove(OS_PRIO prio)
 {
-    CPU_DATA  bit;
-    CPU_DATA  bit_nbr;
-    OS_PRIO   ix;
+    CPU_DATA bit;
+    CPU_DATA bit_nbr;
+    OS_PRIO ix;
 
-
-    ix             = prio / DEF_INT_CPU_NBR_BITS;
-    bit_nbr        = (CPU_DATA)prio & (DEF_INT_CPU_NBR_BITS - 1u);
-    bit            = 1u;
-    bit          <<= (DEF_INT_CPU_NBR_BITS - 1u) - bit_nbr;
+    ix = prio / DEF_INT_CPU_NBR_BITS;
+    bit_nbr = (CPU_DATA)prio & (DEF_INT_CPU_NBR_BITS - 1u);
+    bit = 1u;
+    bit <<= (DEF_INT_CPU_NBR_BITS - 1u) - bit_nbr;
     OSPrioTbl[ix] &= ~bit;
 }

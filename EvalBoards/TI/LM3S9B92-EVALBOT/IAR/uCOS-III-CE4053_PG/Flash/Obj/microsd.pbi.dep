@@ -1,10 +1,10 @@
 microsd.pbi: \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext\microsd.c \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_memmap.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_types.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/gpio.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/ssi.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/sysctl.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/diskio.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/integer.h \
-  \\Mac\Home\Desktop\Code\CodeC\CZ4057\Source_Code_CE4057\Software\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/ssi_hw.h
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext\microsd.c \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_memmap.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\inc/hw_types.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/gpio.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/ssi.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\..\..\..\..\..\CPU\LuminaryMicro\DriverLib\driverlib/sysctl.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/diskio.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/integer.h \
+  \\Mac\Code\CodeC\CZ4057\EvalBoards\TI\LM3S9B92-EVALBOT\IAR\uCOS-III-CE4053_PG\ext/ssi_hw.h
